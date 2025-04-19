@@ -5,12 +5,12 @@
 }
 
 .header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
     background-color: #000;
     color: #fff;
-    /* padding: 20px 0; */
+    padding: 5  px;
     text-align: center;
     height: 80px;
 }
@@ -55,6 +55,10 @@
     color: white;
 }
 
+.togglebar{
+    display: none;
+}   
+
 @media (max-width: 768px) {
     .navlist>ul{
         display: none;
@@ -66,6 +70,121 @@
         display: block;
         font-size: 30px;
         color: white;
-        padding-right: 40px;
+        /* padding-right: 40px; */
     }
+}
+
+.brands{
+    background-color: black;
+}
+/* 
+.brands>button{
+    
+} */
+
+.brand_text{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.brandcard>img{
+    background-color: white;
+}
+
+.franchise{
+    display: flex;
+    background-color: #212529;
+    background-image: url(./Assets/S\ Logo.webp);
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 1200px;
+}
+
+.franchise-card>img{
+    width: 110%;
+    height: 110%;
+    background-color: transparent;
+    position: fixed;
+}
+
+.franchise-top-text{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    text-align: center;
+}
+
+.franchise_card{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px
+}
+
+.express-top-text{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    text-align: center;
+}
+
+.express-locations{
+    padding: 20px;
+    background-color: black;
+    background-image: url(./Assets/5c3e9532-2fd4-4458-9d20-fa3b8b7f0c28.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.village-franchise{
+    display: flex;
+    background-color: #343434;
+    height: 600px;
+}
+
+.village-top-text{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    text-align: center;
+}
+
+.village-body{
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+    color: white;
+    font-size: 20px;
+}
+
+.open-soon-franchise{
+    background-color: black;
+}
+
+.open-soon-card>img{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.open-soon-card{
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.open-soon-top-text{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    text-align: center;
+}
+
+.open-soon-top-text>b{
+    font-size: 30px;
 }
